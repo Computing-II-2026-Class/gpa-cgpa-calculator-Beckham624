@@ -75,7 +75,7 @@ int main(){
    printf("-----------------------------SEMESTER 1--------------------------------------------------------\n");
    for(i=0; i<SEM1_COURSES; i++){
     int score;
-    do{
+    do {
         printf("Enter score for %s - %s (0-100): ",sem1_codes[i],sem1_names[i]);
         scanf("%d", &score);
         if(score<0 || score>100)
