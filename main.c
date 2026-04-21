@@ -140,7 +140,7 @@ int main(){
    double total_credits = sem1_total_credits+sem2_total_credits;
    double cgpa = total_weighted/total_credits;
 
-   printf("\n======================================================================================\n");
+   printf("\n=====================================================================================\n");
    printf("Semester 1 GPA: %.2f\n",sem1_gpa);
    printf("Semester 2 GPA: %.2f\n",sem2_gpa);
    printf("CGPA: %.2f\n",cgpa);
